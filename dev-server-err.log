@@ -1,0 +1,117 @@
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\user\Desktop\lesson-2-authm because it is outside the current Git repository (C:\Users\user\Desktop\lesson-2-authm\frontend).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/products" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="products/p...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function ProductsPage} serverProvidedParams={{...}}>
+              <ProductsPage params={Promise} searchParams={Promise}>
+                <Navbar>
+                  <header className="sticky top...">
+                    <div className="mx-auto fl...">
+                      <LinkComponent>
+                      <nav className="flex items...">
+                        <LinkComponent>
+                        <LinkComponent>
+                        <LinkComponent href="/admin" className="rounded-lg...">
++                         <a
++                           className="rounded-lg px-3 py-1.5 text-sm font-medium transition text-slate-400 hover:bg-w..."
++                           ref={function}
++                           onClick={function onClick}
++                           onMouseEnter={function onMouseEnter}
++                           onTouchStart={function onTouchStart}
++                           href="/admin"
++                         >
+-                         <button
+-                           className="ml-1 rounded-lg border border-red-500/30 px-3 py-1.5 text-sm font-medium text-r..."
+-                         >
+                        ...
+                ...
+          ...
+        ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at a (<anonymous>)
+    at <unknown> (src/components/Navbar.tsx:45:15)
+    at Array.map (<anonymous>)
+    at Navbar (src/components/Navbar.tsx:40:18)
+    at ProductsPage (src/app/products/page.tsx:58:7)
+  43 |               (link.href !== "/products" && pathname.startsWith(link.href));
+  44 |             return (
+> 45 |               <Link
+     |               ^
+  46 |                 key={link.href}
+  47 |                 href={link.href}
+  48 |                 className={`rounded-lg px-3 py-1.5 text-sm font-medium transition ${
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/admin" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="admin/page...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function AdminPage} serverProvidedParams={{...}}>
+              <AdminPage params={Promise} searchParams={Promise}>
+                <Navbar>
+                  <header className="sticky top...">
+                    <div className="mx-auto fl...">
+                      <LinkComponent>
+                      <nav className="flex items...">
+                        <LinkComponent>
+                        <LinkComponent>
+                        <LinkComponent href="/admin" className="rounded-lg...">
++                         <a
++                           className="rounded-lg px-3 py-1.5 text-sm font-medium transition bg-indigo-500/15 text-ind..."
++                           ref={function}
++                           onClick={function onClick}
++                           onMouseEnter={function onMouseEnter}
++                           onTouchStart={function onTouchStart}
++                           href="/admin"
++                         >
+-                         <button
+-                           className="ml-1 rounded-lg border border-red-500/30 px-3 py-1.5 text-sm font-medium text-r..."
+-                         >
+                        ...
+                ...
+          ...
+        ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at a (<anonymous>)
+    at <unknown> (src/components/Navbar.tsx:45:15)
+    at Array.map (<anonymous>)
+    at Navbar (src/components/Navbar.tsx:40:18)
+    at AdminPage (src/app/admin/page.tsx:203:9)
+  43 |               (link.href !== "/products" && pathname.startsWith(link.href));
+  44 |             return (
+> 45 |               <Link
+     |               ^
+  46 |                 key={link.href}
+  47 |                 href={link.href}
+  48 |                 className={`rounded-lg px-3 py-1.5 text-sm font-medium transition ${

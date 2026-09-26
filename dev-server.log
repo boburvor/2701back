@@ -1,0 +1,82 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.10.96:3000
+✓ Ready in 11.6s
+✓ Running next.config.ts took 553ms
+
+ GET / 200 in 2.1s (next.js: 1569ms, application-code: 489ms)
+ GET /products 200 in 320ms (next.js: 87ms, application-code: 233ms)
+ GET /products 200 in 77ms (next.js: 29ms, application-code: 48ms)
+ GET /products 200 in 220ms (next.js: 37ms, application-code: 183ms)
+ GET / 200 in 106ms (next.js: 21ms, application-code: 85ms)
+ GET /products 200 in 143ms (next.js: 22ms, application-code: 121ms)
+ GET /products 200 in 76ms (next.js: 17ms, application-code: 59ms)
+ GET / 200 in 68ms (next.js: 21ms, application-code: 47ms)
+ GET /products 200 in 86ms (next.js: 19ms, application-code: 67ms)
+ GET /products 200 in 73ms (next.js: 17ms, application-code: 55ms)
+ GET /profile 200 in 185ms (next.js: 133ms, application-code: 52ms)
+ GET /products 200 in 57ms (next.js: 14ms, application-code: 43ms)
+ GET /profile 200 in 61ms (next.js: 17ms, application-code: 44ms)
+ GET /products 200 in 58ms (next.js: 15ms, application-code: 43ms)
+ GET / 200 in 53ms (next.js: 13ms, application-code: 40ms)
+ GET /products 200 in 92ms (next.js: 22ms, application-code: 69ms)
+ GET /admin 200 in 249ms (next.js: 191ms, application-code: 58ms)
+ GET /profile 200 in 62ms (next.js: 18ms, application-code: 43ms)
+ GET /admin 200 in 61ms (next.js: 15ms, application-code: 45ms)
+ GET /admin 200 in 213ms (next.js: 21ms, application-code: 192ms)
+ GET /products 200 in 72ms (next.js: 17ms, application-code: 54ms)
+ GET /admin 200 in 65ms (next.js: 18ms, application-code: 46ms)
+ GET / 200 in 97ms (next.js: 13ms, application-code: 84ms)
+✓ Compiled in 279ms
+ GET /admin 200 in 99ms (next.js: 39ms, application-code: 60ms)
+✓ Compiled in 656ms
+ GET /admin 200 in 239ms (next.js: 65ms, application-code: 174ms)
+✓ Compiled in 174ms
+ GET /admin 200 in 91ms (next.js: 24ms, application-code: 67ms)
+ GET / 200 in 124ms (next.js: 24ms, application-code: 101ms)
+ GET /admin 200 in 120ms (next.js: 16ms, application-code: 104ms)
+ GET / 200 in 54ms (next.js: 14ms, application-code: 41ms)
+ GET /products 200 in 91ms (next.js: 36ms, application-code: 55ms)
+ GET /profile 200 in 102ms (next.js: 53ms, application-code: 49ms)
+ GET /products 200 in 56ms (next.js: 15ms, application-code: 41ms)
+ GET / 200 in 61ms (next.js: 27ms, application-code: 34ms)
+ GET /products 200 in 60ms (next.js: 13ms, application-code: 47ms)
+ GET /admin 200 in 52ms (next.js: 12ms, application-code: 39ms)
+ GET / 200 in 50ms (next.js: 14ms, application-code: 35ms)
+ GET /products 200 in 65ms (next.js: 20ms, application-code: 46ms)
+✓ Compiled in 352ms
+ GET /products 200 in 209ms (next.js: 44ms, application-code: 165ms)
+✓ Compiled in 151ms
+ GET /products 200 in 84ms (next.js: 20ms, application-code: 64ms)
+✓ Compiled in 305ms
+ GET /products 200 in 271ms (next.js: 148ms, application-code: 123ms)
+✓ Compiled in 169ms
+ GET /products 200 in 79ms (next.js: 26ms, application-code: 53ms)
+ GET /products 200 in 69ms (next.js: 12ms, application-code: 57ms)
+ GET /products 200 in 72ms (next.js: 13ms, application-code: 59ms)
+ GET /products 200 in 83ms (next.js: 16ms, application-code: 67ms)
+✓ Compiled in 172ms
+ GET /products 200 in 80ms (next.js: 16ms, application-code: 64ms)
+ GET / 200 in 111ms (next.js: 17ms, application-code: 94ms)
+ GET /products 200 in 106ms (next.js: 22ms, application-code: 84ms)
+ GET /profile 200 in 119ms (next.js: 25ms, application-code: 94ms)
+ GET /admin 200 in 115ms (next.js: 28ms, application-code: 88ms)
+ GET /products 200 in 126ms (next.js: 23ms, application-code: 103ms)
+ GET /products 200 in 120ms (next.js: 16ms, application-code: 103ms)
+ GET /products 200 in 83ms (next.js: 12ms, application-code: 71ms)
+ GET /products 200 in 96ms (next.js: 11ms, application-code: 85ms)
+ GET /products 200 in 113ms (next.js: 11ms, application-code: 102ms)
+ GET / 200 in 57ms (next.js: 16ms, application-code: 41ms)
+ GET /products 200 in 70ms (next.js: 26ms, application-code: 44ms)
+ GET /profile 200 in 48ms (next.js: 13ms, application-code: 35ms)
+ GET /admin 200 in 93ms (next.js: 11ms, application-code: 82ms)
+ GET / 200 in 67ms (next.js: 24ms, application-code: 43ms)
+ GET /products 200 in 63ms (next.js: 15ms, application-code: 49ms)
+ GET / 200 in 164ms (next.js: 53ms, application-code: 111ms)
+ GET /products 200 in 134ms (next.js: 16ms, application-code: 119ms)
+ GET /products 200 in 71ms (next.js: 17ms, application-code: 55ms)
+ GET /profile 200 in 101ms (next.js: 43ms, application-code: 59ms)
